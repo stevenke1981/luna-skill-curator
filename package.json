@@ -1,0 +1,16 @@
+{
+  "name": "luna-skill-curator",
+  "version": "0.1.0",
+  "description": "Translate agent skill packs into clear English and organize them, with OpenAI's Luna (Decisions API) as the reviewer and librarian",
+  "type": "module",
+  "bin": {
+    "luna-skills": "bin/luna-skills.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.15"
+  },
+  "license": "MIT"
+}
